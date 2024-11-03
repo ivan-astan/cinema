@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.cancelButton {
+     background-color: #fff;
+     color: #000;
+     border: 1px solid #ccc;
+    border-radius: 41px;
+    width: 20%;
+    height: 50px;
+ }
+.cancelButton:hover {
+    border: 1px solid blue;
+}
+.cancelButton:active {
+    background-color: whitesmoke ;
+}

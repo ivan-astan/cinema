@@ -1,0 +1,57 @@
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+.formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #1D1D1D;
+    opacity: 70%;
+}
+.formGroup input, .formGroup textarea {
+    width: 40vw;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.formGroup textarea {
+    height: 100px;
+}
+.formGroupContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.formGroupCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 60%;
+}
+
+
+.inputContainer {
+    position: relative;
+    width: 400px;
+    margin: 20px;
+}
+.inputContainer input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.inputContainer .errorMessage {
+    position: absolute;
+    top: 65%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: red;
+    pointer-events: none;
+}
